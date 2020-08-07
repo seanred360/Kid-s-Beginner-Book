@@ -125,6 +125,17 @@ public class BookPro : MonoBehaviour
 
         LeftPageShadow.rectTransform.sizeDelta = new Vector2(pageWidth, shadowPageHeight);
         LeftPageShadow.rectTransform.pivot = new Vector2(1, (pageWidth / 2) / shadowPageHeight);
+
+        //foreach(Paper paper in papers)
+        //{
+        //    paper.Front.gameObject.SetActive(false);
+        //    paper.Back.gameObject.SetActive(false);
+        //}
+
+        //papers[currentPaper].Front.SetActive(true);
+        //papers[currentPaper].Back.SetActive(true);
+        //papers[currentPaper + 1].Front.SetActive(true);
+        //papers[currentPaper + 1].Back.SetActive(true);
     }
 
     /// <summary>
@@ -657,6 +668,7 @@ public static class BookUtility
         CanvasGroup cgf = page.GetComponent<CanvasGroup>();
         cgf.alpha = 1;
         cgf.blocksRaycasts = true;
+        cgf.gameObject.SetActive(true);
     }
 
     /// <summary>
@@ -669,6 +681,7 @@ public static class BookUtility
         cgf.alpha = 0;
         cgf.blocksRaycasts = false;
         page.transform.SetAsFirstSibling();
+        cgf.gameObject.SetActive(false);
     }
 
     public static void CopyTransform(Transform from, Transform to)

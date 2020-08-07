@@ -36,13 +36,13 @@ public class AudioPlayerManager : MonoBehaviour
 
     private void Start()
     {
-        LoadAudioClips(KBA_CD1_clips, bookName.KBA, CDNumber.CD1);
-        LoadAudioClips(KBA_CD2_clips, bookName.KBA, CDNumber.CD2);
-        LoadAudioClips(KBA_CDWB_clips, bookName.KBA, CDNumber.CDWB);
+        //LoadAudioClips(KBA_CD1_clips, bookName.KBA, CDNumber.CD1);
+        //LoadAudioClips(KBA_CD2_clips, bookName.KBA, CDNumber.CD2);
+        //LoadAudioClips(KBA_CDWB_clips, bookName.KBA, CDNumber.CDWB);
 
-        LoadAudioClips(KBB_CD1_clips, bookName.KBB, CDNumber.CD1);
-        LoadAudioClips(KBB_CD2_clips, bookName.KBB, CDNumber.CD2);
-        LoadAudioClips(KBB_CDWB_clips, bookName.KBB, CDNumber.CDWB);
+        //LoadAudioClips(KBB_CD1_clips, bookName.KBB, CDNumber.CD1);
+        //LoadAudioClips(KBB_CD2_clips, bookName.KBB, CDNumber.CD2);
+        //LoadAudioClips(KBB_CDWB_clips, bookName.KBB, CDNumber.CDWB);
     }
 
     void LoadAudioClips(List<AudioClip> clipArray, bookName book, CDNumber cd)
