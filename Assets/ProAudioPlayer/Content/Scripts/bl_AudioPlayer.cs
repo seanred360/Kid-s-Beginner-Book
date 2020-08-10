@@ -94,7 +94,7 @@ public class bl_AudioPlayer : MonoBehaviour {
         switch(targetList)
         {
             case "KBA_CD1":
-                m_Clip = AudioPlayerManager.instance.KBA_CD1_clips;
+                m_Clip = AudioClipManager_KBASB.instance.KBA_CD1_clips;
                 break;
         }
     }

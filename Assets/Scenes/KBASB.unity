@@ -173,6 +173,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -353,6 +358,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -515,7 +525,7 @@ RectTransform:
   - {fileID: 753167821}
   - {fileID: 1031129357}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 65
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -636,6 +646,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -997,6 +1012,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1223,7 +1243,7 @@ RectTransform:
   - {fileID: 1027004214}
   - {fileID: 674695675}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 63
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1417,7 +1437,7 @@ MonoBehaviour:
   interactable: 1
   enableShadowEffect: 0
   hasTransparentPages: 0
-  currentPaper: 17
+  currentPaper: 5
   papers:
   - Front: {fileID: 402099817}
     Back: {fileID: 613744138}
@@ -1611,6 +1631,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1790,6 +1815,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -5154,6 +5184,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5311,7 +5346,7 @@ RectTransform:
   - {fileID: 659813508}
   - {fileID: 514415204}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 51
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6362,6 +6397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6541,6 +6581,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -6824,6 +6869,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7003,6 +7053,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -7222,7 +7277,7 @@ RectTransform:
   - {fileID: 1124172353}
   - {fileID: 205028808}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 72
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -7567,6 +7622,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7747,6 +7807,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7926,6 +7991,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -8209,6 +8279,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8388,6 +8463,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -8569,6 +8649,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8743,6 +8828,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8904,7 +8994,7 @@ RectTransform:
   m_Children:
   - {fileID: 991794880}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 56
+  m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -9350,6 +9440,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9511,7 +9606,7 @@ RectTransform:
   m_Children:
   - {fileID: 418894200}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 52
+  m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -9735,6 +9830,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9951,7 +10051,7 @@ RectTransform:
   - {fileID: 1179057503}
   - {fileID: 432901389}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 54
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -10072,6 +10172,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -10886,6 +10991,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11440,7 +11550,7 @@ RectTransform:
   - {fileID: 499994428}
   - {fileID: 2054486884}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 71
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11613,6 +11723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11776,7 +11891,7 @@ RectTransform:
   - {fileID: 411126757}
   - {fileID: 2137686295}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 55
+  m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -11944,7 +12059,7 @@ RectTransform:
   - {fileID: 206262815}
   - {fileID: 1764568665}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 62
+  m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -12104,6 +12219,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -12285,6 +12405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12448,7 +12573,7 @@ RectTransform:
   - {fileID: 1828239051}
   - {fileID: 1242182799}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 58
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -12671,6 +12796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -12920,7 +13050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &793501071
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12933,7 +13063,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 50
+  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -12948,9 +13078,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793501070}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &793501073
 MonoBehaviour:
@@ -13054,6 +13184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -13304,7 +13439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &842884640
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13317,7 +13452,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 41
+  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -13332,9 +13467,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842884639}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &842884642
 MonoBehaviour:
@@ -13438,6 +13573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -13919,6 +14059,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14324,6 +14469,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14708,6 +14858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14887,6 +15042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -15105,7 +15265,7 @@ RectTransform:
   m_Children:
   - {fileID: 439608559}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 68
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -15277,6 +15437,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -15464,6 +15629,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15644,6 +15814,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15823,6 +15998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -16308,6 +16488,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -16457,6 +16642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -16685,7 +16875,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -700.1908, y: 0}
+  m_AnchoredPosition: {x: -700.19073, y: 0.000061035156}
   m_SizeDelta: {x: -0.00000011920929, y: -0.000023126602}
   m_Pivot: {x: 0.00000008009374, y: -0.00000007264316}
 --- !u!1 &1098689853
@@ -16841,6 +17031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -17118,6 +17313,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -17297,6 +17497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -17784,6 +17989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (52)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18159,6 +18369,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18459,7 +18674,7 @@ RectTransform:
   - {fileID: 945613766}
   - {fileID: 16559738}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 66
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -18529,6 +18744,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -19586,7 +19806,7 @@ RectTransform:
   - {fileID: 125477987}
   - {fileID: 1547357637}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 60
+  m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -19706,6 +19926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -20091,6 +20316,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -20255,7 +20485,7 @@ RectTransform:
   - {fileID: 366655844}
   - {fileID: 1655752695}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 53
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -20361,7 +20591,7 @@ RectTransform:
   - {fileID: 1832136730}
   - {fileID: 4946167}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 61
+  m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -20465,7 +20695,7 @@ RectTransform:
   - {fileID: 907035799}
   - {fileID: 1914036044}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 64
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -20690,7 +20920,7 @@ RectTransform:
   - {fileID: 1607304758}
   - {fileID: 1936397556}
   - {fileID: 965072393}
-  - {fileID: 842884640}
+  - {fileID: 1662514107}
   - {fileID: 2034309342}
   - {fileID: 886670748}
   - {fileID: 637447609}
@@ -20699,6 +20929,7 @@ RectTransform:
   - {fileID: 1891200208}
   - {fileID: 1073142100}
   - {fileID: 1782041447}
+  - {fileID: 842884640}
   - {fileID: 793501071}
   - {fileID: 227497726}
   - {fileID: 501265850}
@@ -20722,7 +20953,6 @@ RectTransform:
   - {fileID: 2142291752}
   - {fileID: 689181308}
   - {fileID: 371490246}
-  - {fileID: 1662514107}
   - {fileID: 1879643058}
   - {fileID: 1961545564}
   - {fileID: 1095850852}
@@ -20802,6 +21032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -20983,6 +21218,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -21131,7 +21371,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1662514107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21149,7 +21389,7 @@ RectTransform:
   - {fileID: 708895816}
   - {fileID: 2093886061}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 73
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -21218,9 +21458,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662514106}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1698169942
 GameObject:
@@ -21415,7 +21655,7 @@ RectTransform:
   - {fileID: 1658583189}
   - {fileID: 444927840}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 67
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -21485,6 +21725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -21650,7 +21895,7 @@ RectTransform:
   - {fileID: 979897228}
   - {fileID: 236206592}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 57
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -21771,6 +22016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -22258,6 +22508,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22438,6 +22693,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22617,6 +22877,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -22891,6 +23156,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23156,7 +23426,7 @@ RectTransform:
   - {fileID: 1826965269}
   - {fileID: 280207132}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 59
+  m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -23246,7 +23516,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1879643055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23320,7 +23590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.00000008009374, y: -0.00000007264316}
 --- !u!225 &1879643059
@@ -23331,9 +23601,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879643054}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1891200207
 GameObject:
@@ -23489,6 +23759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -23632,6 +23907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1914428063}
+  - component: {fileID: 1914428064}
   - component: {fileID: 1914428062}
   m_Layer: 0
   m_Name: AudioPlayerManager
@@ -23650,6 +23926,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eb3d68b15b02a64599b3befcf8fc0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPlayerCanvas: {fileID: 488298064}
+--- !u!4 &1914428063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914428061}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3798354, y: -0.415823, z: 86.52331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914428064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914428061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e716fb48fc1c1449927c8068357c18e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   KBA_CD1_clips:
@@ -23802,238 +24105,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 725e3e21c119e0c4f820ea3ebaa201cc, type: 3}
   - {fileID: 8300000, guid: 9f3f4b6ab510fe945814d79d02822f5f, type: 3}
   - {fileID: 8300000, guid: af7df14ef13a61e4a9a27f48033bd0f5, type: 3}
-  KBA_CDWB_clips:
-  - {fileID: 8300000, guid: 9e1a9b847edec304691911ebcad63e18, type: 3}
-  - {fileID: 8300000, guid: 5e4d1c9578e5d84488677265062c6c2c, type: 3}
-  - {fileID: 8300000, guid: 8d00340819e09494faa825bf6809b738, type: 3}
-  - {fileID: 8300000, guid: 995e0cd6ec794e34c86ec48a6a376b0a, type: 3}
-  - {fileID: 8300000, guid: ea714524d3904d14ab7f77dc3142cbf3, type: 3}
-  - {fileID: 8300000, guid: 35260b0a29227b04695761ed851c8e33, type: 3}
-  - {fileID: 8300000, guid: 81e5f5f2a2040ad4d852942da77b5b05, type: 3}
-  - {fileID: 8300000, guid: dbd234e692d0cfb4f823fefa7445db95, type: 3}
-  - {fileID: 8300000, guid: 366ad726583aa7d4abd0c625a257d639, type: 3}
-  - {fileID: 8300000, guid: 73a2f9b8da4a6054b9c3616b127f65b6, type: 3}
-  - {fileID: 8300000, guid: 513fe4a2ba641114ab76e08f394f8be7, type: 3}
-  - {fileID: 8300000, guid: 5e2d20a3234d7224fa2032606bc67530, type: 3}
-  - {fileID: 8300000, guid: b56b47b58c000794b9eefef2a798573a, type: 3}
-  - {fileID: 8300000, guid: 1367b95a31ec5c6499f288975ed44767, type: 3}
-  - {fileID: 8300000, guid: 11156fc1e2a68b34780353452cd3ea93, type: 3}
-  - {fileID: 8300000, guid: 7342e0ca23ab8df40b48adfbb992e2d7, type: 3}
-  - {fileID: 8300000, guid: 2a11989beae60ae40beece0378a0911e, type: 3}
-  - {fileID: 8300000, guid: 85693a98e2f164f43aaca7a605a751fe, type: 3}
-  - {fileID: 8300000, guid: f88975cb972a6c34e936fdaf36864304, type: 3}
-  - {fileID: 8300000, guid: d25796af745b84b4fb6b9cb7ba98d2bb, type: 3}
-  - {fileID: 8300000, guid: d5b40b1c6f4c1e04196df6693eef0557, type: 3}
-  - {fileID: 8300000, guid: 860c1e82412766348a13e91a416feff3, type: 3}
-  - {fileID: 8300000, guid: 2304230de738caa4287797c87f8f5512, type: 3}
-  - {fileID: 8300000, guid: 87f86dd878bcd844ca24734fa6b9b5af, type: 3}
-  - {fileID: 8300000, guid: 63faca7cead136e4db94ba618f53242c, type: 3}
-  - {fileID: 8300000, guid: 1fcca1bc7e7f3ad45a77a4a950582b33, type: 3}
-  - {fileID: 8300000, guid: b9b032a0a3ca0684fb8a7ff042078a40, type: 3}
-  - {fileID: 8300000, guid: 750effc41f190c7479285519141b0905, type: 3}
-  - {fileID: 8300000, guid: 351bd2b3aca219841b879813a581d65f, type: 3}
-  - {fileID: 8300000, guid: e6dc26639a861544ca3ee872e7ee14c2, type: 3}
-  - {fileID: 8300000, guid: eef5d5871588c354aa972f555712399d, type: 3}
-  - {fileID: 8300000, guid: cb89d238513b58741ba00f554bc9ad9d, type: 3}
-  - {fileID: 8300000, guid: ea84a8c84dd84e54bbdace4b7b17197d, type: 3}
-  - {fileID: 8300000, guid: 1a3b2854a40e17549b9b354a8a7aaf25, type: 3}
-  - {fileID: 8300000, guid: b2dbe1e910fbbc242b62c150bd1c051c, type: 3}
-  - {fileID: 8300000, guid: 632ab09385899514b86c551e9a7dd0fb, type: 3}
-  - {fileID: 8300000, guid: a9d721d8229e4044bbc18fcc8c268528, type: 3}
-  - {fileID: 8300000, guid: 38df913141574e74db085a8206e7c675, type: 3}
-  - {fileID: 8300000, guid: ae6665245193b6048b0f88707df16b4a, type: 3}
-  - {fileID: 8300000, guid: dc6bc92c6c3acca47b774f5b973568e6, type: 3}
-  - {fileID: 8300000, guid: b9dbc21d441809242b1112f4315d1ac0, type: 3}
-  - {fileID: 8300000, guid: 5c8c701b05573334c9b72249f4c09455, type: 3}
-  - {fileID: 8300000, guid: 567692aa122b78946909cc2780819898, type: 3}
-  - {fileID: 8300000, guid: 475a91a72c87ea4428a74dc2335884b7, type: 3}
-  - {fileID: 8300000, guid: b7615b66d74802b4d866adce0782c60c, type: 3}
-  - {fileID: 8300000, guid: 7d155ffdbcbb85c4bb2c48f8cc6260ce, type: 3}
-  - {fileID: 8300000, guid: b3f9472ec9c54f04589b830497d825c8, type: 3}
-  - {fileID: 8300000, guid: 0452bbbae741d04418aba5a7ae946540, type: 3}
-  - {fileID: 8300000, guid: 72568c96d15af7b4eb21ea5a666e28d8, type: 3}
-  - {fileID: 8300000, guid: add364ad561708e4d8769ed369578ab0, type: 3}
-  KBB_CD1_clips:
-  - {fileID: 8300000, guid: f481d3848e7c83c4090fd7cf4a418708, type: 3}
-  - {fileID: 8300000, guid: dc0c138795e6a5242accef0c9a0af23b, type: 3}
-  - {fileID: 8300000, guid: 0fd795bf99877824a956c75c9f662ec6, type: 3}
-  - {fileID: 8300000, guid: 2ed6a2ebcc43c41479e24b8e3460673e, type: 3}
-  - {fileID: 8300000, guid: 82427e9fe40e2854489002d996e056f0, type: 3}
-  - {fileID: 8300000, guid: 0ca62871693fef242b23ac738ab3d3de, type: 3}
-  - {fileID: 8300000, guid: 762d00403098a9e48968ce64749afe5b, type: 3}
-  - {fileID: 8300000, guid: 1a34f184a095e9840b5128a7acc1d72f, type: 3}
-  - {fileID: 8300000, guid: 854acf6415befe1419cc60933b3993ad, type: 3}
-  - {fileID: 8300000, guid: 5da29cd02f59e70419a33db2307cad4c, type: 3}
-  - {fileID: 8300000, guid: d3447ad61ab1b464aa1635c91c8687cf, type: 3}
-  - {fileID: 8300000, guid: e6ba8eba0e9769044965020d0b652339, type: 3}
-  - {fileID: 8300000, guid: 88f4813670d7325488c214e858d02346, type: 3}
-  - {fileID: 8300000, guid: 986d8d5a1d88be5459b821272f77e05c, type: 3}
-  - {fileID: 8300000, guid: 02e0855974bf6ee4bbff3e71d70c5f96, type: 3}
-  - {fileID: 8300000, guid: 5ff6800fc65550942802133d9352ebba, type: 3}
-  - {fileID: 8300000, guid: 8b0b593e11071f04b9cd35fba6dfccb3, type: 3}
-  - {fileID: 8300000, guid: b411348395fdd4c4989e05a376d77cae, type: 3}
-  - {fileID: 8300000, guid: 3764fdbd71548da4eac01a17dfbaf849, type: 3}
-  - {fileID: 8300000, guid: 03f22906b28c66347a290a77446b9891, type: 3}
-  - {fileID: 8300000, guid: 8161b2497342468469a16cf15fdca831, type: 3}
-  - {fileID: 8300000, guid: c4434fe838e808c4db34649554ee2142, type: 3}
-  - {fileID: 8300000, guid: c571b37e6a0787a428d8c4f77309b09a, type: 3}
-  - {fileID: 8300000, guid: 06116714187295440ad4ca9a29c3dd7b, type: 3}
-  - {fileID: 8300000, guid: 48ce0ab7d6427c248983748bcfeb2695, type: 3}
-  - {fileID: 8300000, guid: 9fa0b18306511514eb2d225f1d176ccc, type: 3}
-  - {fileID: 8300000, guid: fbda4a9158f61ff48818b423e0d14e5b, type: 3}
-  - {fileID: 8300000, guid: d098c7db4afe31d4dae06865fc67bba6, type: 3}
-  - {fileID: 8300000, guid: 6fb3697f53ddfe3408fb9799a961fa89, type: 3}
-  - {fileID: 8300000, guid: 1dc2109315445854199ae85829a7e20d, type: 3}
-  - {fileID: 8300000, guid: f66fc6635abecd2499954d2365acd4a9, type: 3}
-  - {fileID: 8300000, guid: a39699a91d9ffa74b921c6d5109eebae, type: 3}
-  - {fileID: 8300000, guid: e7b5555a9897b6c408588d29b1e448e6, type: 3}
-  - {fileID: 8300000, guid: d7d5e25c48d75914d8832628b990a682, type: 3}
-  - {fileID: 8300000, guid: 8d3e6510a0063154cbf31f3178421a01, type: 3}
-  - {fileID: 8300000, guid: f72a99b21ac18d54698af5e7769c7dd0, type: 3}
-  - {fileID: 8300000, guid: 423c6f117ca0d7344885f9d8ae8ca205, type: 3}
-  - {fileID: 8300000, guid: 3d4f2553375fa7d43a8d821d424191fe, type: 3}
-  - {fileID: 8300000, guid: 31834a26f9d1bb344ad8ad530a7958f3, type: 3}
-  - {fileID: 8300000, guid: 8f8f6a9252f027a408944d6f99ac51af, type: 3}
-  - {fileID: 8300000, guid: 7ccb411dedf75ff47866447bab418a4b, type: 3}
-  - {fileID: 8300000, guid: 6e3c1bfc0ad97184abec0bea8d014f84, type: 3}
-  - {fileID: 8300000, guid: bd2d146cb7da7cd499a0b9e40eaf8df3, type: 3}
-  - {fileID: 8300000, guid: bced46e1138680446ba226032585f0f1, type: 3}
-  - {fileID: 8300000, guid: 7e6d40ae79b0fb94a8a3b380ce225c81, type: 3}
-  - {fileID: 8300000, guid: a72d8e6e0aea8954fb20bdab098b0738, type: 3}
-  - {fileID: 8300000, guid: 2006165916beddb428c643254520e2de, type: 3}
-  - {fileID: 8300000, guid: 8bf9920cdfe70dd408e760dcff9ff229, type: 3}
-  - {fileID: 8300000, guid: afd3df8bc3045ac48a9f82ecf1584e45, type: 3}
-  - {fileID: 8300000, guid: 05a5e1e67dc8d474a8e61d8ad2b086e5, type: 3}
-  - {fileID: 8300000, guid: 00010894deb85b64e80163d35c51c95a, type: 3}
-  - {fileID: 8300000, guid: 637c0830b96df3841a6c5a388a395f85, type: 3}
-  - {fileID: 8300000, guid: 26dc65abc2f8b6b4ca83575c03e62faa, type: 3}
-  - {fileID: 8300000, guid: 191072823190d924295384082c25df82, type: 3}
-  - {fileID: 8300000, guid: 4017021b88e69e448a5e11a74822005b, type: 3}
-  - {fileID: 8300000, guid: fadea2ba6a7bf9645b65dc658317a862, type: 3}
-  - {fileID: 8300000, guid: 15d0924f34881c24982aaccbb6b910b1, type: 3}
-  - {fileID: 8300000, guid: eef9d6a21c6236f41a940af5dc68e597, type: 3}
-  - {fileID: 8300000, guid: 8024e7b8ebf6bbd408aa254f8e49fccf, type: 3}
-  - {fileID: 8300000, guid: 39c19a45de6bc624da021565c4adb8c4, type: 3}
-  - {fileID: 8300000, guid: 83f564e525ed3b342882a80fb908cbf2, type: 3}
-  - {fileID: 8300000, guid: 39871687738be90498a511543843f0c0, type: 3}
-  - {fileID: 8300000, guid: dab1d04ff7498604abc1a0803237b5f0, type: 3}
-  - {fileID: 8300000, guid: bad20360df30a41418771ea3970182c0, type: 3}
-  - {fileID: 8300000, guid: a6e8fa78c7e280a4eb3ace69b9b0e93f, type: 3}
-  - {fileID: 8300000, guid: fa69a5f3527eeeb4eaa67ce9fd6f17c7, type: 3}
-  - {fileID: 8300000, guid: 3fb8ee30c9867ec41bb3259fa85df2b5, type: 3}
-  - {fileID: 8300000, guid: eef2e074da1f8d14c924d1fdc2e5288f, type: 3}
-  - {fileID: 8300000, guid: 2eacde196404ebf4090958c1d40edb64, type: 3}
-  - {fileID: 8300000, guid: f130e60904c5a6741b808bd54945bdff, type: 3}
-  - {fileID: 8300000, guid: 6d4249bd99c4f1446a3d42b4c43ec989, type: 3}
-  - {fileID: 8300000, guid: a846dba3dd31f704cb6fdffae4ab35b5, type: 3}
-  - {fileID: 8300000, guid: e8eb714714f913b4495b42c7da5c2af1, type: 3}
-  - {fileID: 8300000, guid: 78bc196bb065aa84a887734bd2981e0f, type: 3}
-  - {fileID: 8300000, guid: f6ad01f4e47b7fe4b8da8a0475f3b957, type: 3}
-  KBB_CD2_clips:
-  - {fileID: 8300000, guid: 10470a458b0dc78458d7107373182594, type: 3}
-  - {fileID: 8300000, guid: 31f49574f6ffd084bba4d027d9d1c256, type: 3}
-  - {fileID: 8300000, guid: e2d003255e732cb418c7698b81c9519f, type: 3}
-  - {fileID: 8300000, guid: 9578ec52d1190be4bb56dcfc0eaf0e03, type: 3}
-  - {fileID: 8300000, guid: 54b220997a0f12946887b7a8b54286a1, type: 3}
-  - {fileID: 8300000, guid: cf4c303eec3281949b8ad952b68cfc34, type: 3}
-  - {fileID: 8300000, guid: 3a6b575d1602fb04695bde252bda3fee, type: 3}
-  - {fileID: 8300000, guid: f7f8387271ab04c4b80616b80b6e127c, type: 3}
-  - {fileID: 8300000, guid: 2b19766567964ee408b2c24736fae59a, type: 3}
-  - {fileID: 8300000, guid: 8477770ba573c22458cc0ff8ec381d5d, type: 3}
-  - {fileID: 8300000, guid: 8ff6b26f263c2ad489a5afc098a808b4, type: 3}
-  - {fileID: 8300000, guid: 9c58752fc908709478afc91de6661497, type: 3}
-  - {fileID: 8300000, guid: 4dbfba8cc26ed5f439175f55e111bc4d, type: 3}
-  - {fileID: 8300000, guid: 9a4b708750dfe8f42bb21bc50f260065, type: 3}
-  - {fileID: 8300000, guid: a1189f92a20c8c64e9023928b418ea25, type: 3}
-  - {fileID: 8300000, guid: a8dd8cad82bd62644b5619f4a0cd0004, type: 3}
-  - {fileID: 8300000, guid: e400b2bd4690da94a8accc8431182289, type: 3}
-  - {fileID: 8300000, guid: 43bef275b62cc6847b96915f4e4a7153, type: 3}
-  - {fileID: 8300000, guid: fbbf25aef2223be458bdbd2f9ef3e675, type: 3}
-  - {fileID: 8300000, guid: 5e67f428475cc6944b5b2fe0fc73351b, type: 3}
-  - {fileID: 8300000, guid: 8e204694903f8f449bae2f1da3ea16ca, type: 3}
-  - {fileID: 8300000, guid: aaab8796396276245bcaa5b898a7f6c9, type: 3}
-  - {fileID: 8300000, guid: f2b3265c0ba5ad14e9231c9e0217a854, type: 3}
-  - {fileID: 8300000, guid: e1689be375a9e6b499fa07c91de990df, type: 3}
-  - {fileID: 8300000, guid: 9077210d18482c34b96cbddb2482ca5e, type: 3}
-  - {fileID: 8300000, guid: e5b89511b213b1746ba04ec6ed32e2b2, type: 3}
-  - {fileID: 8300000, guid: 3ca14fdd04cc804488e0dc78b673b63e, type: 3}
-  - {fileID: 8300000, guid: 9ef759446bf51d84dbddc12aa7b5f0e6, type: 3}
-  - {fileID: 8300000, guid: 74231833cf4b1cf44af1def56d734670, type: 3}
-  - {fileID: 8300000, guid: a5b75fdfb4749df47a230aefe18a1ac1, type: 3}
-  - {fileID: 8300000, guid: df156d4dd68d3c8408b3cc6771cf5bae, type: 3}
-  - {fileID: 8300000, guid: 8a018abebcdb14d43badca1987093698, type: 3}
-  - {fileID: 8300000, guid: 5bf2586cd3cb8c544a5baea5e50e4264, type: 3}
-  - {fileID: 8300000, guid: b283116602829fd41983d50a9799ec34, type: 3}
-  - {fileID: 8300000, guid: 4b18fd6b7c33b4642b5acb72d19ebe2a, type: 3}
-  - {fileID: 8300000, guid: d5958de91e7e3074cad6f22422da2705, type: 3}
-  - {fileID: 8300000, guid: 7850840ef757c944e9c3c048cd1e917b, type: 3}
-  - {fileID: 8300000, guid: 575a1fd55f131884f831fc6d2b18ad5c, type: 3}
-  - {fileID: 8300000, guid: dac34c7f8c5d7534ea235af434078bac, type: 3}
-  - {fileID: 8300000, guid: a32424eec918be441af119ca66e6a365, type: 3}
-  - {fileID: 8300000, guid: 96a68d4e3c8de6241a5b0b3a3247b61a, type: 3}
-  - {fileID: 8300000, guid: a5663de8f5f88a844b2ca5ba118367ee, type: 3}
-  - {fileID: 8300000, guid: a7cb58f701898054980f876e9b740285, type: 3}
-  - {fileID: 8300000, guid: eb36f78136c54de4eae0c8862dc40c89, type: 3}
-  - {fileID: 8300000, guid: bc2070748431f7644bba0c77ab723fd8, type: 3}
-  - {fileID: 8300000, guid: 4a31552142ebbd049af2ebc2fd73c5af, type: 3}
-  - {fileID: 8300000, guid: 4ae2ddf2e73dbdd4b980fdd866657da3, type: 3}
-  - {fileID: 8300000, guid: da485fb62f4fabf44ae23349138bcb67, type: 3}
-  - {fileID: 8300000, guid: 04f75a656a0aeac47b5d8729e949d7b0, type: 3}
-  - {fileID: 8300000, guid: 59e41422fd05b1b47a3f940078a9b67d, type: 3}
-  KBB_CDWB_clips:
-  - {fileID: 8300000, guid: 996657c6526974145bde85f0b5f32472, type: 3}
-  - {fileID: 8300000, guid: 1d84796f24e441846af7d66e70254c32, type: 3}
-  - {fileID: 8300000, guid: 55b51ae80ee72274fb9db32e14fe040b, type: 3}
-  - {fileID: 8300000, guid: 8f14f4539b7aaba46842ca1e255b15cf, type: 3}
-  - {fileID: 8300000, guid: d7c7bce49ab6ccd48802dbfef1e9a144, type: 3}
-  - {fileID: 8300000, guid: 8b31131dab1bb694b8f1c192b44ee4ed, type: 3}
-  - {fileID: 8300000, guid: 9afb386bb92d8374495c01cc7ed9f2e9, type: 3}
-  - {fileID: 8300000, guid: f01bec917b6cc874d9e5cc4b09f89ac0, type: 3}
-  - {fileID: 8300000, guid: ff11271780a6da642b111a5be5a1f8d9, type: 3}
-  - {fileID: 8300000, guid: c4f9da9509db334489e2d25695537b6d, type: 3}
-  - {fileID: 8300000, guid: 2fdd6c5d87ede4a4c9744bf2700829a2, type: 3}
-  - {fileID: 8300000, guid: ca4848c1c6530624dad87ae6f462c7b7, type: 3}
-  - {fileID: 8300000, guid: eb78072f30295c74c989c24db32ac129, type: 3}
-  - {fileID: 8300000, guid: ba2abfde04756c545872c589037879ca, type: 3}
-  - {fileID: 8300000, guid: 6c3a6f057ad60834484d529031388809, type: 3}
-  - {fileID: 8300000, guid: 6fa4ea7dc66ba324982eb5b8adb3a8c7, type: 3}
-  - {fileID: 8300000, guid: 4300297f331a6294d914691ff0085494, type: 3}
-  - {fileID: 8300000, guid: e7fbef70f33ca9a4c8ff75b4ed3378a9, type: 3}
-  - {fileID: 8300000, guid: 8e4ff5d02b23f3f4e82c16baf628e3d5, type: 3}
-  - {fileID: 8300000, guid: 7aacaf2cec2b54143a5907b8689b997b, type: 3}
-  - {fileID: 8300000, guid: 09a9e56f34e28fb4fab075b202fb937c, type: 3}
-  - {fileID: 8300000, guid: 478b3e9c7c572cf4e82008d1b7dbe387, type: 3}
-  - {fileID: 8300000, guid: 1b917baf962de464d8ec75e9a536d584, type: 3}
-  - {fileID: 8300000, guid: fb792136c8626ba4a9d4491a26261bfa, type: 3}
-  - {fileID: 8300000, guid: 1e1d8d84b50287e419c34577663a1931, type: 3}
-  - {fileID: 8300000, guid: f0314ac18e96fc248855a662d34fd246, type: 3}
-  - {fileID: 8300000, guid: a85830f04c54c784986e90b3ad3dfde0, type: 3}
-  - {fileID: 8300000, guid: 1fba1ac52c63a8341956ca1045870177, type: 3}
-  - {fileID: 8300000, guid: 5555386beb746d541988f96f893b8820, type: 3}
-  - {fileID: 8300000, guid: edd4384741dc6b3479cb902c3364e1db, type: 3}
-  - {fileID: 8300000, guid: 349c6d5bfae100847a41d1d0dd26be47, type: 3}
-  - {fileID: 8300000, guid: a023ec6c4bd0c784e8852bdbe55dd1c3, type: 3}
-  - {fileID: 8300000, guid: c9ef59604ff0c114086ee33ebe666952, type: 3}
-  - {fileID: 8300000, guid: fc4991f3ce2be984882444bb40fb463f, type: 3}
-  - {fileID: 8300000, guid: 2392ee0f0b99b7947bdb7940538cd07e, type: 3}
-  - {fileID: 8300000, guid: 1b0991048cd5dff429a6770504a194b2, type: 3}
-  - {fileID: 8300000, guid: faa44364ed24b444884a7e3275d44c33, type: 3}
-  - {fileID: 8300000, guid: 056a3451d189b3544b846bdebfa93a62, type: 3}
-  audioPlayerCanvas: {fileID: 488298064}
---- !u!4 &1914428063
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914428061}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.3798354, y: -0.415823, z: 86.52331}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1924982043
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24085,6 +24156,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -24791,7 +24867,7 @@ RectTransform:
   - {fileID: 1924982044}
   - {fileID: 1891388031}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 69
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -24969,6 +25045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -25150,6 +25231,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25329,6 +25415,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -25510,6 +25601,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25689,6 +25785,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -25870,6 +25971,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioButton (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26049,6 +26155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: AudioButton (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -26268,7 +26379,7 @@ RectTransform:
   - {fileID: 750609247}
   - {fileID: 1084829037}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 70
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
