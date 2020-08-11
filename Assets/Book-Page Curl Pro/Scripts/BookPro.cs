@@ -28,6 +28,9 @@ public class BookPro : MonoBehaviour
     public int currentPaper = 0;
     [HideInInspector]
     public Paper[] papers;
+
+    public int targetPageNumber;
+
     /// <summary>
     /// OnFlip invocation list, called when any page flipped
     /// </summary>
@@ -170,6 +173,23 @@ public class BookPro : MonoBehaviour
             return localPos;
         }
         
+    }
+
+    public void GoToPage(int pageNumber)
+    {
+        pageDragging = false;
+
+        currentPaper = pageNumber;
+
+        Left.transform.SetParent(BookPanel.transform, true);
+        Left.rectTransform.pivot = new Vector2(0, 0);
+        Right.transform.SetParent(BookPanel.transform, true);
+        UpdatePages();
+        Shadow.gameObject.SetActive(false);
+        ShadowLTR.gameObject.SetActive(false);
+        ClippingPlane.gameObject.SetActive(false);
+        if (OnFlip != null)
+            OnFlip.Invoke();
     }
 
     /// <summary>

@@ -19,23 +19,23 @@ public class AutoFlip : MonoBehaviour
     void Start () {
         if (!ControledBook)
             ControledBook = GetComponent<BookPro>();
-        ControledBook.interactable = false;
+        //ControledBook.interactable = false;
         if (AutoStartFlip)
             StartFlipping();
     }
-    public void FlipRightPage()
+    public void FlipRightPage(int pageNum)
     {
         if (isPageFlipping) return;
         if (ControledBook.CurrentPaper >= ControledBook.papers.Length) return;
         isPageFlipping = true;
-        PageFlipper.FlipPage(ControledBook, PageFlipTime, FlipMode.RightToLeft, ()=> { isPageFlipping = false; });
+        PageFlipper.FlipPage(pageNum, ControledBook, PageFlipTime, FlipMode.RightToLeft, ()=> { isPageFlipping = false; });
     }
-    public void FlipLeftPage()
+    public void FlipLeftPage(int pageNum)
     {
         if (isPageFlipping) return;
         if (ControledBook.CurrentPaper <= 0) return;
         isPageFlipping = true;
-        PageFlipper.FlipPage(ControledBook, PageFlipTime, FlipMode.LeftToRight, () => { isPageFlipping = false; });
+        PageFlipper.FlipPage(pageNum, ControledBook, PageFlipTime, FlipMode.LeftToRight, () => { isPageFlipping = false; });
     }
     public void StartFlipping()
     {
@@ -58,7 +58,7 @@ public class AutoFlip : MonoBehaviour
                         Mode == FlipMode.LeftToRight))
                     {
                         isPageFlipping = true;
-                        PageFlipper.FlipPage(ControledBook, PageFlipTime, Mode, ()=> { isPageFlipping = false; });
+                        PageFlipper.FlipPage(ControledBook.targetPageNumber,ControledBook, PageFlipTime, Mode, ()=> { isPageFlipping = false; });
                     }
                     else
                     {

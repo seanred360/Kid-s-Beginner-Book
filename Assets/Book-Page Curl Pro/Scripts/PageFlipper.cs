@@ -11,8 +11,11 @@ public class PageFlipper : MonoBehaviour {
     //center x-coordinate 
     float xc,pageWidth,pageHeight;
     FlipMode flipMode;
-    public static void FlipPage(BookPro book,float duration, FlipMode mode, Action OnComplete)
+
+    public static void FlipPage(int pageNumber, BookPro book,float duration, FlipMode mode, Action OnComplete)
     {
+        book.targetPageNumber = pageNumber;
+
         PageFlipper flipper = book.GetComponent<PageFlipper>();
         if (!flipper)
             flipper = book.gameObject.AddComponent<PageFlipper>();
@@ -64,7 +67,8 @@ public class PageFlipper : MonoBehaviour {
             }
             else
             {
-                book.Flip();
+                book.GoToPage(book.targetPageNumber);
+                //book.Flip();
                 isFlipping = false;
                 this.enabled = false;
                 if (finish != null)
