@@ -206,6 +206,9 @@ public class BookPro : MonoBehaviour
 
         UpdatePages();
 
+        BookUtility.HidePage(papers[currentPaper].Front);
+        BookUtility.ShowPage(papers[targetPageNumber].Front);
+
         Left = papers[currentPaper - 1].Front.GetComponent<Image>();
         BookUtility.ShowPage(Left.gameObject);
         Left.rectTransform.pivot = new Vector2(0, 0);
@@ -234,7 +237,7 @@ public class BookPro : MonoBehaviour
 
         ClippingPlane.rectTransform.pivot = new Vector2(0, 0.35f);
 
-        papers[currentPaper - 2].Back.SetActive(false);
+        BookUtility.HidePage(papers[currentPaper - 2].Back);
         BookUtility.ShowPage(papers[targetPageNumber - 1].Back);
 
         Right = papers[currentPaper - 1].Back.GetComponent<Image>();
