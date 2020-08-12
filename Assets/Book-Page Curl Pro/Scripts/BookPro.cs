@@ -24,7 +24,7 @@ public class BookPro : MonoBehaviour
     public bool enableShadowEffect = true;
     [Tooltip("Uncheck this if the book does not contain transparent pages to improve the overall performance")]
     public bool hasTransparentPages = true;
-    [HideInInspector]
+   // [HideInInspector]
     public int currentPaper = 0;
     [HideInInspector]
     public Paper[] papers;
@@ -175,6 +175,8 @@ public class BookPro : MonoBehaviour
         
     }
 
+    #region contents page changing code
+
     public void GoToPage(int pageNumber)
     {
         pageDragging = false;
@@ -191,6 +193,69 @@ public class BookPro : MonoBehaviour
         if (OnFlip != null)
             OnFlip.Invoke();
     }
+
+    public void AutoDragRightPageToPoint(Vector3 point)
+    {
+        if (targetPageNumber > EndFlippingPaper) return;
+        pageDragging = true;
+        mode = FlipMode.RightToLeft;
+        f = point;
+
+        ClippingPlane.rectTransform.pivot = new Vector2(1, 0.35f);
+        currentPaper += 1;
+
+        UpdatePages();
+
+        Left = papers[currentPaper - 1].Front.GetComponent<Image>();
+        BookUtility.ShowPage(Left.gameObject);
+        Left.rectTransform.pivot = new Vector2(0, 0);
+        Left.transform.position = RightPageTransform.transform.position;
+        Left.transform.localEulerAngles = new Vector3(0, 0, 0);
+
+        Right = papers[targetPageNumber - 1].Back.GetComponent<Image>();
+        BookUtility.ShowPage(Right.gameObject);
+        Right.transform.position = RightPageTransform.transform.position;
+        Right.transform.localEulerAngles = new Vector3(0, 0, 0);
+
+        if (enableShadowEffect) Shadow.gameObject.SetActive(true);
+        ClippingPlane.gameObject.SetActive(true);
+
+        UpdateBookRTLToPoint(f);
+    }
+
+    public void AutoDragLeftPageToPoint(Vector3 point)
+    {
+        if (targetPageNumber <= StartFlippingPaper) return;
+        pageDragging = true;
+        mode = FlipMode.LeftToRight;
+        f = point;
+
+        UpdatePages();
+
+        ClippingPlane.rectTransform.pivot = new Vector2(0, 0.35f);
+
+        papers[currentPaper - 2].Back.SetActive(false);
+        BookUtility.ShowPage(papers[targetPageNumber - 1].Back);
+
+        Right = papers[currentPaper - 1].Back.GetComponent<Image>();
+        BookUtility.ShowPage(Right.gameObject);
+        Right.transform.position = LeftPageTransform.transform.position;
+        Right.transform.localEulerAngles = new Vector3(0, 0, 0);
+        Right.transform.SetAsFirstSibling();
+
+        Left = papers[targetPageNumber].Front.GetComponent<Image>();
+        BookUtility.ShowPage(Left.gameObject);
+        Left.gameObject.SetActive(true);
+        Left.rectTransform.pivot = new Vector2(1, 0);
+        Left.transform.position = LeftPageTransform.transform.position;
+        Left.transform.localEulerAngles = new Vector3(0, 0, 0);
+
+        if (enableShadowEffect) ShadowLTR.gameObject.SetActive(true);
+        ClippingPlane.gameObject.SetActive(true);
+        UpdateBookLTRToPoint(f);
+    }
+
+    #endregion
 
     /// <summary>
     /// Update page orders

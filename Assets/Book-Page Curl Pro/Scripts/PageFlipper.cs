@@ -43,6 +43,38 @@ public class PageFlipper : MonoBehaviour {
             book.DragLeftPageToPoint(new Vector3(x, y, 0));
         }
     }
+
+    public static void AutoFlipPage(int pageNumber, BookPro book, float duration, FlipMode mode, Action OnComplete)
+    {
+        book.targetPageNumber = pageNumber;
+
+        PageFlipper flipper = book.GetComponent<PageFlipper>();
+        if (!flipper)
+            flipper = book.gameObject.AddComponent<PageFlipper>();
+        flipper.enabled = true;
+        flipper.book = book;
+        flipper.isFlipping = true;
+        flipper.duration = duration - Time.deltaTime;
+        flipper.finish = OnComplete;
+        flipper.xc = (book.EndBottomLeft.x + book.EndBottomRight.x) / 2;
+        flipper.pageWidth = (book.EndBottomRight.x - book.EndBottomLeft.x) / 2;
+        flipper.pageHeight = Mathf.Abs(book.EndBottomRight.y);
+        flipper.flipMode = mode;
+        flipper.elapsedTime = 0;
+        float x;
+        if (mode == FlipMode.RightToLeft)
+        {
+            x = flipper.xc + (flipper.pageWidth * 0.99f);
+            float y = (-flipper.pageHeight / (flipper.pageWidth * flipper.pageWidth)) * (x - flipper.xc) * (x - flipper.xc);
+            book.AutoDragRightPageToPoint(new Vector3(x, y, 0));
+        }
+        else
+        {
+            x = flipper.xc - (flipper.pageWidth * 0.99f);
+            float y = (-flipper.pageHeight / (flipper.pageWidth * flipper.pageWidth)) * (x - flipper.xc) * (x - flipper.xc);
+            book.AutoDragLeftPageToPoint(new Vector3(x, y, 0));
+        }
+    }
     // Update is called once per frame
     void Update()
     {
