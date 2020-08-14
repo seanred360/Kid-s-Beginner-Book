@@ -7,7 +7,6 @@ public class PanZoom : MonoBehaviour
     Vector3 touchStart;
     public float zoomOutMin = 1;
     public float zoomOutMax = 8;
-    float defaultZoomAmount;
     float currentZoomAmount;
     Camera cam;
     public Camera boundaryCamera;
@@ -19,13 +18,10 @@ public class PanZoom : MonoBehaviour
     private void Start()
     {
         cam = Camera.main;
-        defaultZoomAmount = cam.orthographicSize;
         screenBounds = boundaryCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, boundaryCamera.transform.position.z));
 
-        currentView = cam.ScreenToWorldPoint(new Vector3(1, 1, cam.nearClipPlane));
-        viewWidth = currentView.x;
-        viewHeight = currentView.y;
-
+        viewHeight = cam.orthographicSize /2;
+        viewWidth = viewHeight / Screen.height * Screen.width;
     }
 
     // Update is called once per frame
@@ -55,10 +51,11 @@ public class PanZoom : MonoBehaviour
             Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Camera.main.transform.position += direction;
 
-            //Vector3 viewPos = transform.position;
-            //viewPos.x = Mathf.Clamp(viewPos.x, screenBounds.x * -1 + viewWidth, screenBounds.x - viewWidth);
-            //viewPos.y = Mathf.Clamp(viewPos.y, screenBounds.y * -1 + viewHeight, screenBounds.y - viewHeight);
-            //transform.position = viewPos;
+            Vector3 viewPos = cam.transform.position;
+            viewPos.x = Mathf.Clamp(viewPos.x, screenBounds.x * -1 + viewWidth, screenBounds.x - viewWidth);
+            viewPos.y = Mathf.Clamp(viewPos.y, screenBounds.y * -1 + viewHeight, screenBounds.y - viewHeight);
+
+            transform.position = viewPos;
         }
         Zoom(Input.GetAxis("Mouse ScrollWheel"));
     }
