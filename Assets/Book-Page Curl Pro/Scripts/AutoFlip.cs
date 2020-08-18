@@ -23,19 +23,19 @@ public class AutoFlip : MonoBehaviour
         if (AutoStartFlip)
             StartFlipping();
     }
-    public void FlipRightPage(int pageNum)
+    public void FlipRightPage()
     {
         if (isPageFlipping) return;
         if (ControledBook.CurrentPaper >= ControledBook.papers.Length) return;
         isPageFlipping = true;
-        PageFlipper.AutoFlipPage(pageNum, ControledBook, PageFlipTime, FlipMode.RightToLeft, ()=> { isPageFlipping = false; });
+        PageFlipper.FlipPage(ControledBook, PageFlipTime, FlipMode.RightToLeft, ()=> { isPageFlipping = false; });
     }
-    public void FlipLeftPage(int pageNum)
+    public void FlipLeftPage()
     {
         if (isPageFlipping) return;
         if (ControledBook.CurrentPaper <= 0) return;
         isPageFlipping = true;
-        PageFlipper.AutoFlipPage(pageNum, ControledBook, PageFlipTime, FlipMode.LeftToRight, () => { isPageFlipping = false; });
+        PageFlipper.FlipPage(ControledBook, PageFlipTime, FlipMode.LeftToRight, () => { isPageFlipping = false; });
     }
     public void StartFlipping()
     {
@@ -58,7 +58,7 @@ public class AutoFlip : MonoBehaviour
                         Mode == FlipMode.LeftToRight))
                     {
                         isPageFlipping = true;
-                        PageFlipper.FlipPage(ControledBook.targetPageNumber,ControledBook, PageFlipTime, Mode, ()=> { isPageFlipping = false; });
+                        PageFlipper.FlipPage(ControledBook, PageFlipTime, Mode, ()=> { isPageFlipping = false; });
                     }
                     else
                     {
@@ -70,18 +70,6 @@ public class AutoFlip : MonoBehaviour
                 }
                 nextPageCountDown -= Time.deltaTime;
             }
-        }
-    }
-
-    public void ChooseFlipDirection(int pageNum)
-    {
-        if(ControledBook.currentPaper > 4)
-        {
-            FlipLeftPage(pageNum);
-        }
-        else
-        {
-            FlipRightPage(pageNum);
         }
     }
 }

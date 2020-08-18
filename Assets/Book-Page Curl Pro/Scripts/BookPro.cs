@@ -266,6 +266,7 @@ public class BookPro : MonoBehaviour
     /// </summary>
     public void UpdatePages()
     {
+
         int previousPaper = pageDragging ? currentPaper - 2 : currentPaper - 1;
 
         //Hide all pages
@@ -476,6 +477,7 @@ public class BookPro : MonoBehaviour
             UpdateBookRTLToPoint(f);
         else
             UpdateBookLTRToPoint(f);
+        PanZoom.instance.ResetView();
     }
     
     /// <summary>

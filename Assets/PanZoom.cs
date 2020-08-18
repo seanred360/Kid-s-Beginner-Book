@@ -1,9 +1,26 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
+using DG.Tweening;
 
 public class PanZoom : MonoBehaviour
 {
+
+    #region Singleton
+
+    public static PanZoom instance;
+
+    private void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("More than one instance of PanZoom found!");
+            return;
+        }
+        instance = this;
+    }
+
+    #endregion
+
     Vector3 touchStart;
     public float zoomOutMin = 1;
     public float zoomOutMax = 8;
@@ -14,6 +31,8 @@ public class PanZoom : MonoBehaviour
     private float viewWidth;
     private float viewHeight;
     Vector3 currentView;
+    Vector3 originalPos;
+    float originalOrthographicSize;
 
     private void Start()
     {
@@ -22,6 +41,9 @@ public class PanZoom : MonoBehaviour
 
         viewHeight = cam.orthographicSize /2;
         viewWidth = viewHeight / Screen.height * Screen.width;
+
+        originalPos = cam.transform.position;
+        originalOrthographicSize = cam.orthographicSize;
     }
 
     // Update is called once per frame
@@ -63,5 +85,13 @@ public class PanZoom : MonoBehaviour
     void Zoom(float increment)
     {
         Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
+    }
+
+    public void ResetView()
+    {
+        cam.transform.DOMove(originalPos, .5f, false);
+        cam.DOOrthoSize(originalOrthographicSize, .5f);
+        //cam.transform.position = originalPos;
+        //cam.orthographicSize = originalOrthographicSize;
     }
 }

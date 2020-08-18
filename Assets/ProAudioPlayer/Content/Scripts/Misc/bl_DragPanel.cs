@@ -10,6 +10,8 @@ public class bl_DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler
     private RectTransform panelRectTransform;
     private RectTransform parentRectTransform;
 
+    public bool pointerDown;
+
     void Awake()
     {
         panelRectTransform = transform.parent as RectTransform;
