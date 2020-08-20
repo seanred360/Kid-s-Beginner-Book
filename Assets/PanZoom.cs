@@ -26,7 +26,7 @@ public class PanZoom : MonoBehaviour
     public float zoomOutMax = 8;
     float currentZoomAmount;
     Camera cam;
-    public Camera boundaryCamera;
+    public BoxCollider2D visableArea;
     Vector2 screenBounds;
     private float viewWidth;
     private float viewHeight;
@@ -37,9 +37,11 @@ public class PanZoom : MonoBehaviour
     private void Start()
     {
         cam = Camera.main;
-        screenBounds = boundaryCamera.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, boundaryCamera.transform.position.z));
 
-        viewHeight = cam.orthographicSize /2;
+        screenBounds.x = visableArea.bounds.extents.x;
+        screenBounds.y = visableArea.bounds.extents.y;
+
+        viewHeight = cam.orthographicSize;
         viewWidth = viewHeight / Screen.height * Screen.width;
 
         originalPos = cam.transform.position;
@@ -49,6 +51,9 @@ public class PanZoom : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        viewHeight = cam.orthographicSize;
+        viewWidth = viewHeight / Screen.height * Screen.width;
+
         if (Input.GetMouseButtonDown(0))
         {
             touchStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -70,8 +75,8 @@ public class PanZoom : MonoBehaviour
         }
         else if (Input.GetMouseButton(0))
         {
-            Vector3 direction = touchStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.transform.position += direction;
+            Vector3 direction = touchStart - cam.ScreenToWorldPoint(Input.mousePosition);
+            cam.transform.position += direction;
 
             Vector3 viewPos = cam.transform.position;
             viewPos.x = Mathf.Clamp(viewPos.x, screenBounds.x * -1 + viewWidth, screenBounds.x - viewWidth);
@@ -91,7 +96,5 @@ public class PanZoom : MonoBehaviour
     {
         cam.transform.DOMove(originalPos, .5f, false);
         cam.DOOrthoSize(originalOrthographicSize, .5f);
-        //cam.transform.position = originalPos;
-        //cam.orthographicSize = originalOrthographicSize;
     }
 }
