@@ -4,11 +4,21 @@ using UnityEngine;
 
 public class ToggleAudioCanvas : MonoBehaviour
 {
-    GameObject audioPlayerCanvas;
+    #region Singleton
+
+    public static ToggleAudioCanvas instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
+    #endregion
+
+    public GameObject audioPlayerCanvas;
 
     private void Start()
     {
-        audioPlayerCanvas = AudioPlayerManager.instance.audioPlayerCanvas;
         audioPlayerCanvas.SetActive(false);
     }
 

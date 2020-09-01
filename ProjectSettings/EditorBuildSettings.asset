@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/KBASB.unity
     guid: 75d9ab8edf28ec04893db889a4fe0169
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KBBSB.unity
     guid: 58bca0531766ea343a1a5959d88eef39
+  - enabled: 1
+    path: Assets/Scenes/KBBAB.unity
+    guid: f40f57c555f2bce4b9bd166e20928349
   m_configObjects: {}

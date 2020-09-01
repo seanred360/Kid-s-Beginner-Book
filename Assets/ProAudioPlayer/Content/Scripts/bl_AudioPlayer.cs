@@ -93,17 +93,11 @@ public class bl_AudioPlayer : MonoBehaviour {
     {
         switch(targetList)
         {
-            case "KBA_CD1":
-                m_Clip = AudioClipManager_KBASB.instance.KBA_CD1_clips;
+            case "CD1":
+                m_Clip = AudioClipManager.instance.CD1_clips;
                 break;
-            case "KBA_CD2":
-                m_Clip = AudioClipManager_KBASB.instance.KBA_CD2_clips;
-                break;
-            case "KBB_CD1":
-                m_Clip = AudioClipManager_KBBSB.instance.KBB_CD1_clips;
-                break;
-            case "KBB_CD2":
-                m_Clip = AudioClipManager_KBBSB.instance.KBB_CD2_clips;
+            case "CD2":
+                m_Clip = AudioClipManager.instance.CD2_clips;
                 break;
         }
     }
