@@ -3175,7 +3175,7 @@ MonoBehaviour:
   interactable: 1
   enableShadowEffect: 0
   hasTransparentPages: 0
-  currentPaper: 5
+  currentPaper: 4
   papers:
   - Front: {fileID: 402099817}
     Back: {fileID: 613744138}
@@ -11399,7 +11399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 700.1908, y: 0.00012207031}
+  m_AnchoredPosition: {x: 700.1908, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.00000008009374, y: -0.00000007264316}
 --- !u!1 &434768138
@@ -11438,7 +11438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 700.1908, y: 0.00012207031}
+  m_AnchoredPosition: {x: 700.1908, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.00000008009374, y: -0.00000007264316}
 --- !u!225 &434768140
@@ -19910,7 +19910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 700.1908, y: 0.00012207031}
+  m_AnchoredPosition: {x: 700.1908, y: 0.000061035156}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.00000008009374, y: -0.00000007264316}
 --- !u!1 &921798373
@@ -24072,7 +24072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &1095850848
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -24081,9 +24081,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095850847}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1095850849
 MonoBehaviour:
@@ -33630,7 +33630,7 @@ RectTransform:
   - {fileID: 1936397556}
   - {fileID: 965072393}
   - {fileID: 2034309342}
-  - {fileID: 1662514107}
+  - {fileID: 1961545564}
   - {fileID: 886670748}
   - {fileID: 637447609}
   - {fileID: 669057077}
@@ -33662,8 +33662,8 @@ RectTransform:
   - {fileID: 2142291752}
   - {fileID: 689181308}
   - {fileID: 371490246}
+  - {fileID: 1662514107}
   - {fileID: 1879643058}
-  - {fileID: 1961545564}
   - {fileID: 1095850852}
   - {fileID: 911251085}
   - {fileID: 768790963}
@@ -33915,7 +33915,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1662514107
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33932,7 +33932,7 @@ RectTransform:
   - {fileID: 2114125515}
   - {fileID: 708895816}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 40
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -34000,9 +34000,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662514106}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1001 &1664363861
 PrefabInstance:
@@ -37393,7 +37393,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1879643055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37462,7 +37462,7 @@ RectTransform:
   - {fileID: 1089839023}
   - {fileID: 1798190532}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 72
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -37477,9 +37477,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879643054}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1001 &1879944188
 PrefabInstance:
@@ -38758,7 +38758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!225 &1961545560
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -38767,9 +38767,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961545559}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1961545561
 MonoBehaviour:
@@ -38853,7 +38853,7 @@ RectTransform:
   - {fileID: 1341559225}
   - {fileID: 1520020768}
   m_Father: {fileID: 1649042111}
-  m_RootOrder: 73
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
