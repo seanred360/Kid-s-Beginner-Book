@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KBBSB.unity
     guid: 58bca0531766ea343a1a5959d88eef39
   - enabled: 0
@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/KBAAB.unity
     guid: 0a785713d7ecd5b47addda166cf0b5e4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KBASB.unity
-    guid: bb218d1b957929b4baf467e3b245a507
+    guid: 75d9ab8edf28ec04893db889a4fe0169
   m_configObjects: {}
