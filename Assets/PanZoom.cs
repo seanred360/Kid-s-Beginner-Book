@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 using DG.Tweening;
 
 public class PanZoom : MonoBehaviour
@@ -46,6 +45,8 @@ public class PanZoom : MonoBehaviour
 
         originalPos = cam.transform.position;
         originalOrthographicSize = cam.orthographicSize;
+
+        zoomOutMax = cam.orthographicSize;
     }
 
     // Update is called once per frame
