@@ -12,11 +12,10 @@ public class MobileBook : MonoBehaviour
 
     public void FlipPageRight()
     {
-        if(currentPage < pages.Length)
+        if(currentPage < pages.Length - 1)
         {
             pages[currentPage].GetComponent<RectTransform>().SetAsLastSibling();
             pages[currentPage].GetComponent<Animator>().Play("FlipRight");
-            //pages[currentPage].SetActive(false);
             pages[currentPage + 1].SetActive(true);
 
             currentPage++;
@@ -29,7 +28,6 @@ public class MobileBook : MonoBehaviour
         {
             pages[currentPage].GetComponent<RectTransform>().SetAsLastSibling();
             pages[currentPage].GetComponent<Animator>().Play("FlipLeft");
-            //pages[currentPage].SetActive(false);
             pages[currentPage - 1].SetActive(true);
 
             currentPage--;
@@ -38,12 +36,8 @@ public class MobileBook : MonoBehaviour
 
     public void GoToPage(int pageNum)
     {
-        //pageNum += 7;
-        
         pages[currentPage].GetComponent<RectTransform>().SetAsLastSibling();
         pages[currentPage].GetComponent<Animator>().Play("FlipLeft");
-        //pages[currentPage].SetActive(false);
-        //pages[pageNum].SetActive(true);
         FindPageNumber(pageNum).SetActive(true);
     }
 
@@ -51,7 +45,6 @@ public class MobileBook : MonoBehaviour
     {
         pages[currentPage].GetComponent<RectTransform>().SetAsLastSibling();
         pages[currentPage].GetComponent<Animator>().Play("FlipLeft");
-        //pages[currentPage].SetActive(false);
         pages[8].SetActive(true);
 
         currentPage = 8;
@@ -59,12 +52,23 @@ public class MobileBook : MonoBehaviour
 
     private GameObject FindPageNumber(int pgNum)
     {
-        foreach (GameObject pg in pages)
+        //foreach (GameObject pg in pages)
+        //{
+        //    if (pg.name.EndsWith(pgNum.ToString()))
+        //    {
+        //        Debug.Log(pg.name);
+        //        return pg;
+        //    }
+        //}
+        //return null;
+
+        for (int i = 0; i < pages.Length; i++)
         {
-            if (pg.name.EndsWith(pgNum.ToString()))
+            if (pages[i].name.EndsWith(pgNum.ToString()) && pages[i].name.StartsWith("Page"))
             {
-                Debug.Log(pg.name);
-                return pg;
+               Debug.Log(pages[i].name);
+                currentPage = i;
+               return pages[i];
             }
         }
         return null;
