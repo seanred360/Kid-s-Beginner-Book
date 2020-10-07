@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3275801427181486595}
   - component: {fileID: 3275801427181486596}
   - component: {fileID: 3275801427181486597}
+  - component: {fileID: 117188792}
   m_Layer: 5
   m_Name: CloseButton
   m_TagString: Untagged
@@ -131,6 +132,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &117188792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275801427181486599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 69fbe32acc38b5441a016a9596122c85, type: 3}
+  playOnStart: 0
+  playOnClick: 1
+  soundSourceTag: Sound
 --- !u!1 &3275801427841712173
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +442,8 @@ GameObject:
   - component: {fileID: 3275801427828064071}
   - component: {fileID: 3275801427847747209}
   - component: {fileID: 3275801427847751619}
+  - component: {fileID: 575088194}
+  - component: {fileID: 575088195}
   m_Layer: 5
   m_Name: DragArea
   m_TagString: Untagged
@@ -501,6 +520,65 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointerDown: 0
+--- !u!114 &575088194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275801427841717949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 8143a33389aa10647ab52c2ef79e9a0d, type: 3}
+  playOnStart: 0
+  playOnClick: 1
+  soundSourceTag: Sound
+--- !u!114 &575088195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275801427841717949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3275801427847747209}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3275801427841718535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2815,6 +2893,7 @@ GameObject:
   - component: {fileID: 3275801427847788687}
   - component: {fileID: 3275801427847748607}
   - component: {fileID: 3275801427847778159}
+  - component: {fileID: 1262765418}
   m_Layer: 5
   m_Name: Play/Pause
   m_TagString: Untagged
@@ -2947,6 +3026,22 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 0.7, y: -0.7}
   m_UseGraphicAlpha: 1
+--- !u!114 &1262765418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275801427841772989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 8143a33389aa10647ab52c2ef79e9a0d, type: 3}
+  playOnStart: 0
+  playOnClick: 1
+  soundSourceTag: Sound
 --- !u!1 &3275801427841775613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,6 +3872,7 @@ GameObject:
   - component: {fileID: 3275801427847814747}
   - component: {fileID: 3275801427847778811}
   - component: {fileID: 1094720523}
+  - component: {fileID: 2067615439}
   m_Layer: 5
   m_Name: ProgressSlider
   m_TagString: Untagged
@@ -3933,6 +4029,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d1fc945e081fd8479dc2d7029177252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2067615439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275801427841792743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 8143a33389aa10647ab52c2ef79e9a0d, type: 3}
+  playOnStart: 0
+  playOnClick: 1
+  soundSourceTag: Sound
 --- !u!1 &3275801427841797883
 GameObject:
   m_ObjectHideFlags: 0
