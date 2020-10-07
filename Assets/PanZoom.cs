@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using DG.Tweening;
+using UnityEngine.EventSystems;
 
 public class PanZoom : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class PanZoom : MonoBehaviour
     Vector3 originalPos;
     float originalOrthographicSize;
 
+    public bool canPan = true;
+
     private void Start()
     {
         cam = Camera.main;
@@ -51,6 +54,23 @@ public class PanZoom : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    {
+        if(canPan)
+        HandlePanZoom();
+    }
+
+    void Zoom(float increment)
+    {
+        Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
+    }
+
+    public void ResetView()
+    {
+        cam.transform.DOMove(originalPos, .5f, false);
+        cam.DOOrthoSize(originalOrthographicSize, .5f);
+    }
+
+    void HandlePanZoom()
     {
         viewHeight = cam.orthographicSize;
         viewWidth = viewHeight / Screen.height * Screen.width;
@@ -86,16 +106,5 @@ public class PanZoom : MonoBehaviour
             transform.position = viewPos;
         }
         Zoom(Input.GetAxis("Mouse ScrollWheel"));
-    }
-
-    void Zoom(float increment)
-    {
-        Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - increment, zoomOutMin, zoomOutMax);
-    }
-
-    public void ResetView()
-    {
-        cam.transform.DOMove(originalPos, .5f, false);
-        cam.DOOrthoSize(originalOrthographicSize, .5f);
     }
 }

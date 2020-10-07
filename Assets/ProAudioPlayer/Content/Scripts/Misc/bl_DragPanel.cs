@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class bl_DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler
+public class bl_DragPanel : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
 
     private Vector2 originalLocalPointerPosition;
@@ -20,8 +19,15 @@ public class bl_DragPanel : MonoBehaviour, IPointerDownHandler, IDragHandler
 
     public void OnPointerDown(PointerEventData data)
     {
+        PanZoom.instance.canPan = false;
+
         originalPanelLocalPosition = panelRectTransform.localPosition;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(parentRectTransform, data.position, data.pressEventCamera, out originalLocalPointerPosition);
+    }
+
+    public void OnPointerUp(PointerEventData data)
+    {
+        PanZoom.instance.canPan = true;
     }
 
     public void OnDrag(PointerEventData data)

@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Audio;
+using TMPro;
 
 [RequireComponent(typeof(AudioSource))]
 public class bl_AudioPlayer : MonoBehaviour {
@@ -26,8 +27,8 @@ public class bl_AudioPlayer : MonoBehaviour {
     public Sprite MuteSprite = null;
     public Sprite UnMuteSprite = null;
     [Space(5)]
-    public Text CurrentTimeText = null;
-    public Text DurationText = null;
+    public TextMeshProUGUI CurrentTimeText = null;
+    public TextMeshProUGUI DurationText = null;
     [Space(5)]
     public Slider ProgressSlider = null;
     public Slider VolumenSlider = null;
