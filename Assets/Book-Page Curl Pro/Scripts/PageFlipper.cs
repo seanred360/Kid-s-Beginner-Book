@@ -45,6 +45,7 @@ public class PageFlipper : MonoBehaviour {
     {
         if (isFlipping)
         {
+            ParticleDisabler.instance.ToggleParticles(false);
             elapsedTime += Time.deltaTime;
             if (elapsedTime <  duration )
             {
@@ -64,6 +65,7 @@ public class PageFlipper : MonoBehaviour {
             }
             else
             {
+                ParticleDisabler.instance.ToggleParticles(true);
                 book.Flip();
                 isFlipping = false;
                 this.enabled = false;

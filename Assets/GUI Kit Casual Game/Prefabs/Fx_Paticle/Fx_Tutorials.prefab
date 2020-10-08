@@ -4805,7 +4805,7 @@ GameObject:
   - component: {fileID: 4165186512299587744}
   m_Layer: 5
   m_Name: Fx_Tutorials
-  m_TagString: Untagged
+  m_TagString: Particle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4819,12 +4819,12 @@ RectTransform:
   m_GameObject: {fileID: 4165186512299587750}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_LocalScale: {x: 18.931084, y: 18.931084, z: 18.931084}
   m_Children:
   - {fileID: 4165186511947632571}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 1009.5, y: -550.2}

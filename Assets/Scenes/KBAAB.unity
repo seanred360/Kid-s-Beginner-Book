@@ -1460,7 +1460,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: c9566e7434e70924094f329de27aec07, type: 3}
+  sound: {fileID: 8300000, guid: 8143a33389aa10647ab52c2ef79e9a0d, type: 3}
   playOnStart: 0
   playOnClick: 1
   soundSourceTag: Sound
@@ -4868,8 +4868,8 @@ MonoBehaviour:
   MuteImage: {fileID: 226046654}
   MuteSprite: {fileID: 21300006, guid: dbef7d9c6f4f5e0448c341bbc385c0af, type: 3}
   UnMuteSprite: {fileID: 21300012, guid: dbef7d9c6f4f5e0448c341bbc385c0af, type: 3}
-  CurrentTimeText: {fileID: 0}
-  DurationText: {fileID: 0}
+  CurrentTimeText: {fileID: 232016039}
+  DurationText: {fileID: 232062717}
   ProgressSlider: {fileID: 226214972}
   VolumenSlider: {fileID: 226066146}
   RepeatImage: {fileID: 226058998}
@@ -14717,6 +14717,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001088826}
   m_CullTransparentMesh: 0
+--- !u!1 &1042700719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042700721}
+  - component: {fileID: 1042700720}
+  m_Layer: 0
+  m_Name: ParticleDisabler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1042700720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042700719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953c0c2dd2223e74abbd3478cf96698e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: []
+--- !u!4 &1042700721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042700719}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.37586, y: -1.8916446, z: 22.543673}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046090297
 GameObject:
   m_ObjectHideFlags: 0
@@ -25968,7 +26012,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d9b01731405c1b4dab06bbb60a8c1c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: c9566e7434e70924094f329de27aec07, type: 3}
+  sound: {fileID: 8300000, guid: 8143a33389aa10647ab52c2ef79e9a0d, type: 3}
   playOnStart: 0
   playOnClick: 1
   soundSourceTag: Sound

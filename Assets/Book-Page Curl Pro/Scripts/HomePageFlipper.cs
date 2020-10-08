@@ -80,6 +80,7 @@ public class HomePageFlipper : MonoBehaviour {
     {
         if (isFlipping)
         {
+            ParticleDisabler.instance.ToggleParticles(false);
             elapsedTime += Time.deltaTime;
             if (elapsedTime <  duration )
             {
@@ -99,6 +100,7 @@ public class HomePageFlipper : MonoBehaviour {
             }
             else
             {
+                ParticleDisabler.instance.ToggleParticles(true);
                 book.GoToPage(book.targetPageNumber);
                 //book.Flip();
                 isFlipping = false;

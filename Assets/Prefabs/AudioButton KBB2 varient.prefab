@@ -15,7 +15,7 @@ PrefabInstance:
     - target: {fileID: 6241608197599900438, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
       propertyPath: m_Name
-      value: AudioButton KBB varient
+      value: AudioButton KBB2 varient
       objectReference: {fileID: 0}
     - target: {fileID: 6241608197599900439, guid: c8aa7c9cd8b4c004e952035ae060e645,
         type: 3}
@@ -122,5 +122,41 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7614613469128172769}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8274807059456964250, guid: c8aa7c9cd8b4c004e952035ae060e645,
+        type: 3}
+      propertyPath: m_OnCullStateChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8aa7c9cd8b4c004e952035ae060e645, type: 3}
+--- !u!1 &7614613469128172769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8274807059456964252, guid: c8aa7c9cd8b4c004e952035ae060e645,
+    type: 3}
+  m_PrefabInstance: {fileID: 1980053002099724925}
+  m_PrefabAsset: {fileID: 0}
