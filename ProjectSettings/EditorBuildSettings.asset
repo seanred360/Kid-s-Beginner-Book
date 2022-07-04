@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/KBBAB.unity
     guid: f40f57c555f2bce4b9bd166e20928349
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KBAAB.unity
     guid: 0a785713d7ecd5b47addda166cf0b5e4
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KBASB.unity
     guid: bb218d1b957929b4baf467e3b245a507
   m_configObjects: {}

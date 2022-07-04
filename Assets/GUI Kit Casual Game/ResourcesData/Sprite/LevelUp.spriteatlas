@@ -40,11 +40,14 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 0
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 0f17b2ddcef3b43ec9e88443c0b72991, type: 3}
     totalSpriteSurfaceArea: 3276565
     bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: b4a4b8f5c2d49459891adf4008f22aeb, type: 3}
@@ -59,5 +62,6 @@ SpriteAtlas:
   - levelup_bg_glow
   - "\u1109\u1173\u110F\u1173\u1105\u1175\u11AB\u1109\u1163\u11BA 2020-08-07 \u110B\u1169\u1112\u116E
     5.37.27"
+  m_RenderDataMap: {}
   m_Tag: LevelUp
   m_IsVariant: 0
